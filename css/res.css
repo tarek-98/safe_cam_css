@@ -1,0 +1,176 @@
+/* Medium */
+@media (min-width: 700px) and (max-width: 1100px) {
+    nav .list ul
+    {
+        display: block;
+        opacity: 100%;
+    }
+    nav .list ul li a
+    {
+        padding: 0px;
+    }
+    nav .list ul li a::after,
+    nav .list ul li a::before
+    {
+        width: 0px;
+        height: 0px;
+    }
+    nav .list .seconed .seclist
+    {
+        top: 100%;
+    }
+    .head .container
+    {
+        margin-left: 20%;
+        margin-right: 50px;
+    }
+    .head .content
+    {
+        text-align: left;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .head .content p
+    {
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+    .head .content h2
+    {
+        color: white;
+        font-size: 30px;
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 30px;
+    }
+    /* about */
+    .about .section
+    {
+        flex-wrap: wrap;
+    }
+    .about .section .image,
+    .about .section .text
+    {
+        flex-basis: 100%;
+    }
+    /*service*/
+    .service .section
+    {
+        grid-template-columns: repeat(2, auto);
+    }
+    .service .container
+    {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    /*pric*/
+    .pricing .container
+    {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    .pricing .section
+    {
+        grid-template-columns: repeat(2, auto);
+    }
+    .pricing .section .item
+    {
+        margin-bottom: 10px;
+    }
+}
+/* small */
+@media (min-width: 0px) and (max-width:699px) {
+    nav .tel,
+    nav .logo
+    {
+        display: none;
+    }
+    nav .list ul li
+    {
+        margin-left: 25px;
+        margin-right: 0px;
+    }
+    nav .list ul li a
+    {
+        font-size: 18px;
+    }
+    .head
+    {
+        padding-bottom: 0px;
+        padding-top: 100px;
+    }
+    .head .content
+    {
+        padding-top: 0;
+        padding-bottom: 0px;
+    }
+    .head .container
+    {
+        margin-left: 20%;
+        margin-right: 50px;
+    }
+    .head .content
+    {
+        text-align: left;
+        padding-bottom: 20px;
+    }
+    .head .content p
+    {
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+    .head .content h2
+    {
+        color: white;
+        font-size: 30px;
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+    .head .content a:nth-child(3),
+    .head .content a:nth-child(4)
+    {
+        padding: 10px 10px;
+    }
+    /* about */
+    .about .section
+    {
+        flex-wrap: wrap;
+    }
+    .about .section .image,
+    .about .section .text
+    {
+        flex-basis: 100%;
+    }
+    /* service*/
+    .service .section
+    {
+        grid-template-columns: repeat(2, auto);
+    }
+    .service .container
+    {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    /*pric*/
+    .pricing .container
+    {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    .pricing .section
+    {
+        grid-template-columns: repeat(2, auto);
+    }
+    .pricing .section .item
+    {
+        margin-bottom: 10px;
+    }
+}
+/* Large */
+@media (min-width: 1000px) {
+    .container {
+        width: 1100px;
+        margin-right: 150px;
+    }
+}
